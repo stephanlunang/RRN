@@ -1,0 +1,42 @@
+.aboutus{
+}
+
+.jumbotron{
+	margin: 0px 0px 0px 0px;
+}
+
+#auphoto{
+	max-height: 50vh;
+}
+
+
+#auimg{
+	position: fixed;
+	top: 50px;
+	height: 100% !important;
+	width: auto;
+	max-height: 50vh;
+	margin: 0px 0px 0px 0px;
+}
+
+.cover{
+	background-image: url(https://lh3.googleusercontent.com/-1kTENyPV2IM/Vq_FpRJpXVI/AAAAAAAAAO8/ByO-HP9v0bk/s912-Ic42/golden-gate-bridge-690346.jpg);
+	background-color: black;
+	background-repeat: no-repeat;
+	height: 50vh;
+	width: auto;
+}
+
+
+#aujumbo{
+	font-family: 'Stellar', 'Times New Roman';
+	background-color: white;
+}
+
+#header{
+	text-align: center;
+}
+
+#text{
+	text-align: center;
+}

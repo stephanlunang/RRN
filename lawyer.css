@@ -1,0 +1,9 @@
+.lawyerpic{
+	background-image: url(https://lh3.googleusercontent.com/-mDQoYF1ZJQA/Vp_4W5YRIaI/AAAAAAAAALs/07x3fhkF6Hg/s800-Ic42/P1010486.JPG);
+	background-color: black;
+	-webkit-filter: sepia(1);
+  	filter: sepia(1);
+	background-repeat: no-repeat;
+	height: 50vh;
+	width: auto;
+}
