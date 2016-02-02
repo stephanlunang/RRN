@@ -20,23 +20,55 @@
 }
 
 .cover{
-	background-image: url(https://lh3.googleusercontent.com/-1kTENyPV2IM/Vq_FpRJpXVI/AAAAAAAAAO8/ByO-HP9v0bk/s912-Ic42/golden-gate-bridge-690346.jpg);
+	position: relative;
+	overflow: hidden;
 	background-color: black;
-	background-repeat: no-repeat;
 	height: 50vh;
 	width: auto;
+}
+
+#bridge{
+	position: absolute;
+	top: -30px;
+	width: 100vw;
+	height: auto;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;	
+}
+
+
+@media (min-aspect-ratio: 1.7) {
+	#bridge{
+		width: 100vw;
+		height: auto;
+	}
+}
+
+@media (max-aspect-ratio: 16/9) {
+  #bridge {
+    height: 100vh;
+    width: auto;
+  }
 }
 
 
 #aujumbo{
 	font-family: 'Stellar', 'Times New Roman';
 	background-color: white;
+	overflow: auto;
 }
 
 #header{
 	text-align: center;
+	font-size: 1.5em;
+	border-bottom: 1px #000080 solid;
 }
 
 #text{
 	text-align: center;
+	color: rgb(128,128,128);
 }

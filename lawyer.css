@@ -1,9 +1,35 @@
 .lawyerpic{
-	background-image: url(https://lh3.googleusercontent.com/-mDQoYF1ZJQA/Vp_4W5YRIaI/AAAAAAAAALs/07x3fhkF6Hg/s800-Ic42/P1010486.JPG);
+	position: relative;
+	overflow: hidden;
 	background-color: black;
-	-webkit-filter: sepia(1);
-  	filter: sepia(1);
-	background-repeat: no-repeat;
 	height: 50vh;
 	width: auto;
+}
+
+#lim{
+	position: absolute;
+	min-height: 50vh !important;
+	width: 100vw;
+	top: -100px;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+
+@media (min-aspect-ratio: 1.7) {
+	#lim{
+		width: 100vw;
+		height: auto;
+	}
+}
+
+@media (max-aspect-ratio: 16/9) {
+  #lim {
+    height: 100vh;
+    width: auto;
+  }
 }

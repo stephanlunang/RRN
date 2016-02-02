@@ -1,9 +1,14 @@
+/*General CSS*/
+body{
+  background-color: #d3d3d3;
+}
+
 /*Nav Bar styling*/
 #navbar{
   background-color: white;
   margin: 0px 0px 0px 0px;
   color: white;
-  border-bottom: none;
+  box-shadow: 2px 2px 2px #888888;
 }
 
 .myNavbar{
