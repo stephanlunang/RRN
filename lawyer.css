@@ -20,16 +20,28 @@
 }
 
 
-@media (min-aspect-ratio: 1.7) {
+@media (min-aspect-ratio: 1.8) {
 	#lim{
 		width: 100vw;
 		height: auto;
 	}
 }
 
-@media (max-aspect-ratio: 16/9) {
+@media (max-aspect-ratio: 1.4) {
   #lim {
     height: 100vh;
     width: auto;
   }
+}
+
+
+#aila{
+	height: 150px;
+	width: auto;
+	user-drag: none; 
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;	
 }

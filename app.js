@@ -14,9 +14,9 @@ if (Meteor.isClient) {
         url: '/contactus',
         templateUrl: 'contactus.html'
       })
-      .state('newsletter', {
-        url: '/newsletter',
-        templateUrl: 'newsletter.html'
+      .state('clients', {
+        url: '/clients',
+        templateUrl: 'clients.html'
       })
       .state('aboutus', {
         url: '/aboutus',
@@ -29,5 +29,4 @@ if (Meteor.isClient) {
 
     $urlRouterProvider.otherwise("/landing");
   });
-
 }

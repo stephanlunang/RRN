@@ -7,8 +7,17 @@
 
 #auphoto{
 	max-height: 50vh;
+	-webkit-filter: brightness(50%);
+	filter: brightness(50%));	
+	box-shadow: 2px 2px 2px #888888;
+	transition: all 1s ease-in-out;
 }
 
+#auphoto:focus, #auphoto:hover {
+	-webkit-filter: brightness(100%);
+	filter: brightness(100%);
+	transition: all 1s ease-in-out;
+}
 
 #auimg{
 	position: fixed;
@@ -64,8 +73,8 @@
 
 #header{
 	text-align: center;
-	font-size: 1.5em;
-	border-bottom: 1px #000080 solid;
+	font-size: 2em;
+/*	border-bottom: 1px #000080 solid;*/
 }
 
 #text{

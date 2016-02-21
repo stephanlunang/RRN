@@ -1,10 +1,12 @@
 <head>
   <title>RRNAPLC</title>
   <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/x-icon" href="https://lh3.googleusercontent.com/-Ta5LfAp9-U8/Vp7NVSIajII/AAAAAAAAAK4/TwnjGQpGEqE/s512-Ic42/justice-914228_640.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!--  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>-->
   <base href="/">
 </head>
 
@@ -21,9 +23,10 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-              <li><a class='links' href="/aboutus">About Us</a></li>
-              <li><a class='links' href="/lawyer">Meet the Lawyer</a></li>
-              <li><a class='links' href="/contactus">Contact Us</a></li>
+              <li id='navitem'><a class='links' href="/aboutus">About Us</a></li>
+              <li id='navitem'><a class='links' href="/lawyer">Meet the Lawyer</a></li>
+              <li id='navitem'><a class='links' href="/contactus">Contact Us</a></li>
+              <li id='navitem'><a class='links' href="/clients">Existing Clients</a></li>
           </ul>
       </div>
     </div>
@@ -31,4 +34,14 @@
   <div ng-app="RRN" ng-strict-di="">
   	<div ui-view=""></div>
   </div>
+<!--
+  <script>
+  $(document).ready(function (){
+    $("#aboutus").click(function (){
+        $('html, body').animate({
+            scrollTop: $("#aboutusdiv").offset().top
+        }, 2000);
+    });
+  });
+  </script>-->
 </body>

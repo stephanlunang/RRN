@@ -8,7 +8,7 @@ body{
   background-color: white;
   margin: 0px 0px 0px 0px;
   color: white;
-  box-shadow: 2px 2px 2px #888888;
+  box-shadow: 1px 1px 1px #888888;
 }
 
 .myNavbar{
@@ -21,22 +21,27 @@ body{
   margin-top: 0;
 }
 
+
 /*Video Styling*/
 .videocontainer{
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -100;
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: 100vw;
+  height: 80vh;
+  z-index: -100;
+  overflow: hidden;
+  -webkit-filter: brightness(30%);
+  filter: brightness(30%);
+  box-shadow: 2px 2px 2px #888888;
 }
 
 .fullscreen-bg__video {
-    position: absolute;
-    top: -200px;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+  position: absolute;
+  top: -200px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 @media (min-aspect-ratio: 16/9) {
@@ -55,9 +60,8 @@ body{
 
 
 .RRN{
-	position: fixed;
-	top: 680px;
-  color: black;
+  text-align: center;
+  color: white;
   text-align: center;
   font-family: 'Stellar', 'Times New Roman';
 }
@@ -66,3 +70,8 @@ body{
 	margin-top: 0px;
 }
 
+#content{
+  width: 100vw;
+  position: fixed;
+  top: 42vh;
+}
